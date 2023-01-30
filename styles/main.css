@@ -428,19 +428,7 @@ footer{
     nav ul li{
         padding: 10px;
     }
-    nav ul li a{
-        font-family: calibri;
-        font-size: 1.4em;
-        text-transform: uppercase;
-        color:#5c5c5c;
-    }
-    nav ul li a:hover{
-        color:#121212;
-    }
-
-    nav.active ul{
-        display: flex !important;
-    }
+   
     .about-container{
         top: 0px;
         flex-direction: column;
@@ -461,4 +449,48 @@ footer{
         flex-grow: 1;
         margin: 10px;
     }
+    .text-container{
+        top: 46%;
+    }
+    .about-text p:nth-child(1){
+        font-size: 15px;
+    }
+    .text-container p:nth-child(2){
+        font-size: 40px;
+    }
+    .text-container p:nth-child(3),
+    .text-container p:nth-child(4){
+        font-size: 15px;
+    }
+    .text-container button{
+        margin: 5px;
+    }
+    .about-container{
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .about-container img{
+        height: 200px;
+    }
+    .about-text{
+        width: 400px;
+    }
+    .about-text p:nth-child(1){
+        font-size: 20px;
+    }
+    .about-text p:nth-child(2),
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4),
+    .about-text p:nth-child(5){
+        font-size: 14px;
+    }
+    .contact-me{
+        height: 60px;
+    }
+    .contact-me p{
+        font-size: 18px;
+    }
+
 }
